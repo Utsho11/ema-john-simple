@@ -3,7 +3,26 @@
     padding: 25px;
     position: sticky;
     top: 0;
+    align-items: center;
+    text-align: center;
 }
 .cart p{
     font-size: 17px;
+}
+.btn-clear-cart{
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff3030ac;
+    border-radius: 4px;
+    color: white;
+    border: white;
+    margin: 10px auto;
+    padding: 0 14px;
+}
+.btn-clear-cart:hover{
+    background-color: red;
 }

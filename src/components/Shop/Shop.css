@@ -11,3 +11,23 @@
 .cart-container{
     text-align: center;
 }
+.review-link{
+    text-decoration: none;
+}
+.btn-review{
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.651);;
+    border-radius: 4px;
+    color: white;
+    border: white;
+    margin: 10px auto;
+    padding: 0 14px;
+}
+.btn-review:hover{
+    background-color: orange;
+}
